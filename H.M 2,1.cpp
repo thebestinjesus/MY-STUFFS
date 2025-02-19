@@ -18,7 +18,7 @@ int main()
 	for (i = 0; i <= 9; i++) {
 		total = total + A[i];
 	}
-	cout << "the sommation est " << total << endl;
+	cout << "the SUM IS " << total << endl;
 	avrg = total / 10;
 	cout << "The average is " << avrg<< endl;
 	min = A[0];
