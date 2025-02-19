@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	int A[10], B[10], i, j;
+	int A[10], B[10], i;
 	for (i = 0; i <= 9; i++) {
 		cout << "please enter the number with the index " << i << endl;
 		cin >> A[i];
