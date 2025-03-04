@@ -12,14 +12,12 @@ int main()
 	char string1[20];
 	cout << "Enter a string: ";
 	cin >> string;
-	cin.ignore();
+	
 	cout << "The length of string1 is " << strlen(string) << endl;
 
 	strcpy_s(string1, 20, string);
 
-	i= strlen(string1);
-	cout << i;
-	cout << endl;
+	i= strlen(string1)<< endl;
 
 	for (int index = i - 1; index >= 0; index--)
 	{
