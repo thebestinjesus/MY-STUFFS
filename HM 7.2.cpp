@@ -26,6 +26,7 @@ int main()
 		cout << endl;
 		cout << endl;
 	}
+	court <<"Book Collection"<<endl;
 	for (int i = 0; i <3; i++)
 	{
 		cout << i+1 << ". " << Detail[i].title << " by " << Detail[i].author << " (" << Detail[i].year << ")" << endl;
