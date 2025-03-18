@@ -19,9 +19,11 @@ int main()
 {
 	Student info;
 	cout << "Enter your name: ";
-	cin >> info.Name;
+	cin.getline(info.Name, 50);
+	
 	cout << "Enter your age: ";
 	cin >> info.Age;
+	
 	cout << "Enter your GPA: ";
 	cin >> info.GPA;
 
